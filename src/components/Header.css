@@ -1,0 +1,81 @@
+.navbar{
+    height: 80px;
+    background-color: black;
+    opacity: 0.9;
+    font-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-title{
+    display: flex;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    padding-left: 3rem;
+    margin-left: 6rem;
+    padding-top: 0.3rem;
+    align-items: center;
+    margin-right: 3rem;
+
+}
+
+.navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-links_container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+}
+
+.navbar-links_container p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    margin: 0 2.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#home {
+    text-decoration: none;
+    color: #fff;
+}
+#home:hover {
+    text-decoration: none;
+    opacity:0.8;
+}
+#about {
+    text-decoration: none;
+    color: #fff;
+}
+#about:hover {
+    text-decoration: none;
+    opacity:0.8;
+}
+#future {
+    text-decoration: none;
+    color: #fff;
+}
+#future:hover {
+    text-decoration: none;
+    opacity:0.8;
+}
+#companies {
+    text-decoration: none;
+    color: #fff;
+}
+#companies:hover {
+    text-decoration: none;
+    opacity:0.8;
+}

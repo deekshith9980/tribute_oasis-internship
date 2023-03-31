@@ -1,0 +1,25 @@
+.about {
+    border: 3px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    width: 1395px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.about-title{
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+.about-content {
+    padding: 1rem;
+    margin: 1rem;
+    padding-left: 2rem;
+    font-weigth: 1500;
+    font-size: 25px;
+}
+
+.about-content-list li {
+    padding-bottom: 1rem;
+}

@@ -1,0 +1,42 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2.5rem;
+}
+
+.home-left{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-image img {
+    display: flex;
+    width: 500px;
+    height: 400px;
+}
+
+.home-text h1{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    font-weight: bold;
+    padding-left: 11rem;
+}
+
+.home-text h3{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    font-weight: bold;
+    padding-left: 5rem;
+}
+
+.home-right{
+    padding: 3rem;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    font-size: 1.8rem;
+    margin-bottom: 7rem;
+}

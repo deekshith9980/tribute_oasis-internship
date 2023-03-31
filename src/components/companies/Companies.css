@@ -1,0 +1,23 @@
+.companies {
+    height: 100%;
+    background-color: #6a6a6a;
+    padding : 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.companies-logo {
+    display: inline;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.companies-logo img {
+    width: 250px;
+    height: 75px;
+    padding: 1rem;
+    margin: 1.75rem;
+
+}
